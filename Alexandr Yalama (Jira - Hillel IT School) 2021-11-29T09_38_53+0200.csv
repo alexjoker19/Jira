@@ -1,0 +1,73 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Due Date,Votes,Description,Environment,Watchers,Watchers,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Outward issue link (Blocks),Custom field (Epic Color),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Status),Custom field (Estimate),Custom field (Rank),Custom field (Severity),Custom field (Story Points),Custom field (Zephyr Teststep),Custom field (gitCommitsReferenced),Comment
+"constantly when adding products to the basket for comparison, there are no features to compare",ODQM270821-13,30132,Bug,Done,ODQM270821,QA Manual (27.08.2021) Изотов,software,ed.izotov@gmail.com,,,High,Done,,kfcrjdsq20,kfcrjdsq20,15/Sep/21 1:07 PM,17/Sep/21 3:55 PM,29/Nov/21 9:38 AM,17/Sep/21 3:55 PM,,0,"step to reproduce:
+1.go to pretashop.qatestlab.com.ua/
+2.Choose any catagory on the main page
+3.Choose three different products in this catagory to compare
+4.On the comparing page the customer can't compare these products due to lake  of features
+
+ Expected result:
+There are must be features of any product to compare it with another product
+
+Actual result:
+On the comparing page the customer sees the message that there are no features to compare
+",,ed.izotov@gmail.com,kfcrjdsq20,,,,,,,,,ODQM270821-1,,,,,,"0|i02y50:",,,,,"16/Sep/21 12:37 PM;ed.izotov@gmail.com;# Where? (has to be specified in Summary)
+ # The bug report has to be linked to ODQM270821-1 as ""Blocks ...""."
+always from the catalog you can add only three products to the cart to compare them,ODQM270821-12,30129,Bug,Done,ODQM270821,QA Manual (27.08.2021) Изотов,software,ed.izotov@gmail.com,,,Lowest,Done,,kfcrjdsq20,kfcrjdsq20,15/Sep/21 12:57 PM,17/Sep/21 3:55 PM,29/Nov/21 9:28 AM,17/Sep/21 3:55 PM,,0,"step to reproduce:
+1.Go to pretashop.qatestlab.com.ua/
+2.On the main page choose any  catagory
+3.On three different products choose ""add to compare""
+4.If customer choose the forth product to compare it will give a message  that he can't do it
+
+Expected reresult:
+Have the possibility to add more than three products to compare
+
+Actual result:
+If customer choose the forth product to compare it will give a message  that he can't add more than three products to this function
+",,ed.izotov@gmail.com,kfcrjdsq20,,,,,,,,,ODQM270821-1,,,,,,"0|i02y4c:",,,,,"16/Sep/21 12:37 PM;ed.izotov@gmail.com;The bug report has to be linked to ODQM270821-1 as ""Blocks ...""."
+"on the ""contact us"" page there are defects in which this function does not work",ODQM270821-11,30126,Bug,Done,ODQM270821,QA Manual (27.08.2021) Изотов,software,ed.izotov@gmail.com,,,High,Done,,kfcrjdsq20,kfcrjdsq20,15/Sep/21 12:29 PM,17/Sep/21 3:56 PM,29/Nov/21 9:28 AM,17/Sep/21 3:55 PM,,0,"Step to reproduce:
+1.go to pretashop.qatestlab.com.ua/
+2.At the bootom of the  main page in the  ""Information"" column choose the button ""Contact us""
+3.You fill in the fields and you can enter your wrong e-mail address
+
+Expected result:
+Should give an error message or highlighted in red or don't give the opportunity to send message if customer fill in his wrong  e-mail address
+
+Actual result:
+The customer can send a message to client service with his wrong email/
+",,ed.izotov@gmail.com,kfcrjdsq20,,,,,,,,,ODQM270821-1,,,,,,"0|i02y3o:",,,,,"16/Sep/21 12:38 PM;ed.izotov@gmail.com;# Where? (has to be specified in Summary)
+ # The bug report has to be linked to ODQM270821-1 as ""Blocks ...""."
+"when registering, the site does not send an email to the mail of the newly registered user to confirm the registration",ODQM270821-10,30123,Bug,Done,ODQM270821,QA Manual (27.08.2021) Изотов,software,ed.izotov@gmail.com,,,Highest,Done,,kfcrjdsq20,kfcrjdsq20,15/Sep/21 12:04 PM,17/Sep/21 3:54 PM,29/Nov/21 9:28 AM,17/Sep/21 3:54 PM,,0,"Step to reproduce:
+1.1.Open the page ptetashop.qatestlab.com.ua/
+1.2.At the top of the main page on the right check ""Sign us"" 
+1.3.In the field of the e-mail address fill in your e-mail address
+1.4.Fill in your personal information
+1.5.Confirm your information
+
+Expected result:
+you should receive an email with registration confirming to your email address
+
+Actual result:
+you don't receive an e-mail confirming your registration on this site",,ed.izotov@gmail.com,kfcrjdsq20,,,,,,,,,ODQM270821-1,,,,,,"0|i02y30:",,,,,"16/Sep/21 12:38 PM;ed.izotov@gmail.com;The bug report has to be linked to ODQM270821-1 as ""Blocks ...""."
+"Choosing on the main page "" Follow to us"" to Facebook,doesn't work correctly  Facebook page of this store",ODQM270821-9,30122,Bug,Done,ODQM270821,QA Manual (27.08.2021) Изотов,software,ed.izotov@gmail.com,,,High,Done,,kfcrjdsq20,kfcrjdsq20,15/Sep/21 11:42 AM,17/Sep/21 3:55 PM,29/Nov/21 9:31 AM,17/Sep/21 3:54 PM,,0,"Step to reproduced:
+
+1.1.Open in browser the page pretashop.qatestlab.com.ua
+
+1.2.Go to the down the main page
+
+1.3.On the right check ""Follow to us"" to Facebook
+
+ 
+
+Expected result:
+
+Go to the Facebook page of this store in another tab
+
+ 
+Actual result:
+
+another tab opens with a Facebook page, but you get an error that this page was not found
+
+ 
+
+ ",,ed.izotov@gmail.com,kfcrjdsq20,,,,,,,,,ODQM270821-1,,,,,,"0|i02y2s:",,,,,"16/Sep/21 12:39 PM;ed.izotov@gmail.com;# Where? (has to be specified in Summary)
+ # The bug report has to be linked to ODQM270821-1 as ""Blocks ...""."
